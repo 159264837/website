@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html >   
+<head>
+        <meta name="viewport" content="with=divice-width, initial-scale=1.0">
+         <title>nosotros</title>
+         <link rel="stylesheet" href="style1.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">         
+         <script src="https://kit.fontawesome.com/24eaabb665.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+<section class="sub-section1">
+    <nav>
+        <a href="index.html"><img src="imagenes/logo2.png"></a>
+        <div class="nav-links" id="navlinks">  
+           <i class="fa fa-times-circle-o" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="nosotros.html">nosotros</a></li>
+                <li><a href="certificacion.html">certificacion</a></li>
+                <li><a href="capacitacion.html">capacitacion</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <button class="switch" id="switch">
+        <span> <i class="fa fa-sun-o"></i></span>
+        <span><i class="fa fa-moon-o"></i></span>
+    </button>
+    <h1>NOSOTROS</h1>
+</section>
+
+
+
+<section class="nosotros">
+    <div class="row">
+        <div class="nosotros-col">
+            <h1>Quiénes Somos</h1>
+            <p>Somos un Organismo de Certificación mexicano con experiencia en los diferentes sectores productivos, públicos y privados, teniendo presencia en todo el territorio nacional.</p>
+            <p>Contamos con una amplia experiencia en las certificaciones de sistemas de gestión ISO así como experiencia en la impartición de diversos cursos además de contar con un amplio clúster de colaboradores con más de 15 años de experiencia evaluando Sistemas de Gestión.</p>
+            <a href="" class="aqui puedes poner'hero-btn'"></a>
+            </div>
+        <div class="nosotros-col">
+            <img src="imagenes/quienes.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+<section class="sub-section3">
+    <div class="row">
+        <div class="banners-col">
+            <img src="imagenes/filosofia.jpg">
+            <h3>Filosofía</h3>
+            <p>Nuestra filosofía está marcada por la calidad que ponemos en cada una de las actividades que realizamos, pues sabemos que es el distintivo que nos diferencia cuando damos el servicio al cliente y provocar en ellos su preferencia hacia nosotros; esto lo lograremos por medio de generar en nuestros colaboradores la pasión, el servicio enfocado al cliente, trabajo en equipo y la honestidad para que con ello podamos crecer y beneficiar como empresa, sociedad y como seres humanos.</p>
+        </div>
+        <div class="banners-col">
+            <img src="imagenes/mision.jpg">
+            <h3>Misión</h3>
+            <p>En Qualis Audit Mexico ofrecemos servicios de certificación y formación en los sistemas de gestión de las empresas e instituciones, con el fin de evaluar la conformidad de sus sistemas y con ello colaborarles en el desarrollo sustentable y/o económico que les ayude a garantizar su permanencia en el entorno que se desenvuelven.</p>
+        </div>
+        <div class="banners-col">
+            <img src="imagenes/vision.jpg">
+            <h3>Visión</h3>
+            <p>Ser el organismo de certificación nacional con más aceptabilidad en su  medio, y a través  de nuestra  cultura organizacional y principios, elevar los estándares de nuestros clientes y aumentar nuestra participación en el mercado.</p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+<section class="sub-section4">
+    <h1>Nuestros Valores</h1>
+
+    <div class="row">
+        <div class="banner2-col">
+            <img src="imagenes/3.jpg">
+            <h3>Confidencialidad</h3>
+            <p>Estricto a pego a el cuidado de la información <br> por nuestros clientes.</p>
+        </div>
+        <div class="banner2-col">
+            <img src="imagenes/5.jpg">
+            <h3>Honestidad</h3>
+            <p>Transparencia, sinceridad y franqueza define el actuar de nuestros colaboradores.</p>
+        </div>
+        <div class="banner2-col">
+            <img src="imagenes/2.jpg">
+            <h3>Pasión</h3>
+            <p>Entregar nuestro amor por lo que hacemos y trasmitirlo con nuestras partes interesadas.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="banner2-col">
+            <img src="imagenes/6.jpg">
+            <h3>Orientación al Cliente</h3>
+            <p>Entender las necesidades de nuestros clientes y buscar la mejor solución a estas.</p>
+        </div>
+        <div class="banner2-col">
+            <img src="imagenes/4.jpg">
+            <h3>Trabajo en Equipo</h3>
+            <p>Colaboración de todos los integrantes con la finalidad de cumplir las metas a través de la lealtad, principios y valores de la organización.</p>
+        </div>
+        <div class="banner2-col">
+            <img src="imagenes/1.jpg">
+            <h3>Responsabilidad Social</h3>
+            <p>Como virtud o valor entendemos el compromiso con la sociedad, empresas e instituciones para fomentar un debido respeto.</p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+<section class="section7">
+    <h4>sobre nosotros</h4>
+    <p><!--text here--></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+</section>
+
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+
+
+
+    const btnSwitch = document.querySelector('#switch');
+
+    btnSwitch.addEventListener('click' , () => {
+        document.body.classList.toggle('dark');
+
+        btnSwitch.classList.toggle('active');
+
+        if(document.body.classList.contains('dark')){
+		localStorage.setItem('dark-mode', 'true');
+	} else {
+		localStorage.setItem('dark-mode', 'false');
+	}
+
+    });
+
+    if(localStorage.getItem('dark-mode') === 'true'){
+	document.body.classList.add('dark');
+	btnSwitch.classList.add('active');
+} else {
+	document.body.classList.remove('dark');
+	btnSwitch.classList.remove('active');
+}
+
+</script>
+
+
+</body>    
+</html>
